@@ -11,4 +11,4 @@ Previously, most websites implement something called long polling, but here we i
 
 So why not just make repeated HTTP requests at intervals? The main reason is that they are event-driven, less latency, and less overhead. 
 
-Instead of implementing a chatroom, the "Hello World!" of websockets, I system that would continously track mouse movement, and send it to the client. The details can be found in the post here 
+Instead of implementing a chatroom, the "Hello World!" of websockets, I tried to implement a simple system that would continously track mouse movement, and send it to the client. The details can be found in the post here https://akacoder404.github.io/posts/python-websockets-with-pynput/
